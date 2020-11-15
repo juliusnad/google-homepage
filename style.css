@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 .links:link, .links:visited {
@@ -77,6 +77,16 @@ main {
     padding-top: 30px;
 }
 
+.search-buttons {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
 .topleftlinks {
     float: left;
     position: relative;
@@ -87,4 +97,46 @@ main {
     float: right;
     position: relative;
     right: 15px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    display: inline;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    padding-left: 10px;
+    border-top: 1px solid #dadce0;
+    font-size: 15px;
+}
+
+.bottomleftlinks {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+
+.bottomrightlinks {
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    margin-right: 10px;
+    text-decoration: underline;
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
 }
