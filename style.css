@@ -71,6 +71,12 @@ main {
     max-width: 100%;
 }
 
+.searchbarbtns {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
 .topleftlinks {
     float: left;
     position: relative;
