@@ -1,3 +1,1 @@
-<!--
-    The Odin Project - Building Google front page.
- -->
+The Odin Project - Building Google front page.
