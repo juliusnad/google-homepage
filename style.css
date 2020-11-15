@@ -11,4 +11,21 @@ ul {
     margin: 0 auto;
     height: 92px;
     max-width: 100%;
+    padding-top: 10%;
+}
+
+li {
+    display: inline;
+}
+
+.topleftlinks {
+    float: left;
+    position: relative;
+    right: 20px;
+}
+
+.toprightlinks {
+    float: right;
+    position: relative;
+    right: 30px;
 }
