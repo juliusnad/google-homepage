@@ -2,12 +2,45 @@ body {
     margin: 0px;
 }
 
+.links:link, .links:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.links:hover, .links:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.signinbtn:link, .signinbtn:visited {
+    background-color: #4285f4;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.signinbtn:hover, .signinbtn:active {
+    background-color: #4285f4;
+}
+
+nav {
+    margin-top: 10px;
+}
+
 ul {
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
 }
 
 .googleimg {
     display: block;
+    position: relative;
+    left: 40px;;
     margin: 0 auto;
     height: 92px;
     max-width: 100%;
@@ -16,6 +49,26 @@ ul {
 
 li {
     display: inline;
+    margin-right: 10px;
+}
+
+main {
+    
+}
+
+.searchbar {
+    padding-top: 30px;
+}
+
+.searchbox {
+    display: block;
+    margin: 0 auto;
+    width: 580px;
+    border: 1px solid #dfe1e5;
+    border-radius: 44px;
+    padding: 16px;
+    font-size: 16px;
+    max-width: 100%;
 }
 
 .topleftlinks {
@@ -27,5 +80,5 @@ li {
 .toprightlinks {
     float: right;
     position: relative;
-    right: 30px;
+    right: 15px;
 }
