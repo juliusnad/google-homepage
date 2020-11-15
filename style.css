@@ -2,9 +2,13 @@ body {
     margin: 0px;
 }
 
+ul {
+    list-style: none;
+}
+
 .googleimg {
     display: block;
     margin: 0 auto;
-    height: auto;
+    height: 92px;
     max-width: 100%;
 }
